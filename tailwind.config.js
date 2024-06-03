@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth : {
+        container :"1440px",
+        },
+      fontFamily: {
+        'dmSans': ['"DM Sans"', "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }

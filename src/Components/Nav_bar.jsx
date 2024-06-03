@@ -1,8 +1,11 @@
 import React from 'react'
+import Container from './Container'
 
 const Nav_bar = () => {
   return (
-    <div>Nav_bar</div>
+   <nav>
+    <h1>navbar</h1>
+   </nav>
   )
 }
 
