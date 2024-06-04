@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         'dmSans': ['"DM Sans"', "sans-serif"],
       },
+      backgroundImage: theme => ({
+        'custom-gradient': 'linear-gradient(to right, #FE651B, #FFAA52)',
+      }),
     },
   },
   plugins: [],

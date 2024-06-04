@@ -1,14 +1,28 @@
-import React from 'react'
-import Nav_bar from './Components/Nav_bar'
-import Header from './Components/Header'
+import React from "react";
+import {
+  createRoutesFromElements,
+  createBrowserRouter,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import Home from "./pages/Home";
+import RootLayout from "./Components/RootLayout";
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route>
+        <Route index element={<Home />} />
+      </Route>
+    </Route>
+  )
+);
 
 const App = () => {
   return (
     <>
-    <Header/>
-      <Nav_bar/>
+      <RouterProvider router={router}></RouterProvider>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
