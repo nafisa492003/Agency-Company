@@ -28,7 +28,7 @@ const Header = () => {
 
   return  (
     <section>
-    <header className="max-w-[1680px] py-2 bg-[#3661FC] rounded-r-full absolute z-50 top-0">
+    <header className="w-[1680px] py-2 bg-[#3661FC] rounded-r-full absolute z-50 top-0 hidden lg:block">
       <Container>
         <Flex className="flex-wrap items-center justify-between lg:flex-nowrap">
           <Flex className="gap-1 md:gap-[30px] items-center flex-wrap lg:flex-nowrap">

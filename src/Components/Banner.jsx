@@ -7,11 +7,11 @@ const Banner = () => {
   return (
     <section
     style={{ backgroundImage: `url(${bannerimg})` }}
-    className="object-contain bg-no-repeat pb-[200px] md:pb-52"
+    className="object-contain bg-no-repeat pb-[88px]"
   >
     <Container>
       <Flex className="flex-wrap md:flex-nowrap">
-        <div className="w-full md:w-1/2 mt-48 md:mt-[360px] text-center md:text-left">
+        <div className="w-full md:w-1/2 mt-56 md:mt-[360px] text-center md:text-left">
           <h3 className="font-medium font-dmSans text-[20px] md:text-[25px] mb-3 md:mb-5 text-gradient">
             Your Trusted Ortencey Agency
           </h3>
@@ -26,7 +26,7 @@ const Banner = () => {
           </button>
         </div>
         <div className="flex justify-center w-full mt-10 md:w-1/2 md:justify-end md:mt-0">
-          <img className="mt-10 md:mt-[145px] w-full max-w-[400px] lg:max-w-full" src={bannerpick} alt="" />
+          <img className="mt-3  md:mt-[145px] w-full max-w-[400px] lg:max-w-full" src={bannerpick} alt="" />
         </div>
       </Flex>
     </Container>
