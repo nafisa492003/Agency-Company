@@ -24,19 +24,66 @@ const Team = () => {
           </h1>
         </div>
         {/* title part */}
-        <Flex>
-            <div className='w-[340px] py-5 bg-white px-5'>
+        <Flex className={`items-center gap-6 lg:justify-between flex-col lg:flex-row`}>
+            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto'>
                 <img src={team_img} alt="" />
                 <div className='w-[150px] mx-auto mt-6'>
                     <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
                     <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
                 </div>
-                <Flex className={`items-center w-full bg-white gap-10`}>
-                <FaFacebook />
-                <FaTwitter />
-                <FaLinkedinIn />
-                <IoLogoYoutube />
+               <div className='relative w-[330px] hidden group-hover:block duration-150'>
+               <Flex className={`items-center  py-5 bg-white px-5 mx-auto gap-10 absolute top-[-45px] left-[-18px] w-full`}>
+                <FaFacebook size={20} className='text-[#3661FC] text-center' />
+                <FaTwitter size={20} className='text-[#3661FC] text-center' />
+                <FaLinkedinIn size={20} className='text-[#3661FC] text-center' />
+                <IoLogoYoutube size={20} className='text-[#3661FC] text-center' />
                 </Flex>
+               </div>
+            </div>
+            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto'>
+                <img src={team_img} alt="" />
+                <div className='w-[150px] mx-auto mt-6'>
+                    <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
+                    <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
+                </div>
+               <div className='relative w-[330px] hidden group-hover:block duration-150'>
+               <Flex className={`items-center  py-5 bg-white px-5 mx-auto gap-10 absolute top-[-45px] left-[-18px] w-full`}>
+                <FaFacebook size={20} className='text-[#3661FC] text-center' />
+                <FaTwitter size={20} className='text-[#3661FC] text-center' />
+                <FaLinkedinIn size={20} className='text-[#3661FC] text-center' />
+                <IoLogoYoutube size={20} className='text-[#3661FC] text-center' />
+                </Flex>
+               </div>
+            </div>
+            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto'>
+                <img src={team_img} alt="" />
+                <div className='w-[150px] mx-auto mt-6'>
+                    <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
+                    <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
+                </div>
+               <div className='relative w-[330px] hidden group-hover:block duration-150'>
+               <Flex className={`items-center  py-5 bg-white px-5 mx-auto gap-10 absolute top-[-45px] left-[-18px] w-full`}>
+                <FaFacebook size={20} className='text-[#3661FC] text-center' />
+                <FaTwitter size={20} className='text-[#3661FC] text-center' />
+                <FaLinkedinIn size={20} className='text-[#3661FC] text-center' />
+                <IoLogoYoutube size={20} className='text-[#3661FC] text-center' />
+                </Flex>
+               </div>
+            </div>
+            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto'>
+                <img src={team_img} alt="" />
+                <div className='w-[150px] mx-auto mt-6'>
+                    <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
+                    <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
+                </div>
+               <div className='relative w-[330px] hidden group-hover:block duration-150'>
+               <Flex className={`items-center  py-5 bg-white px-5 mx-auto gap-10 absolute top-[-45px] left-[-18px] w-full`}>
+                <FaFacebook size={20} className='text-[#3661FC] text-center' />
+                <FaTwitter size={20} className='text-[#3661FC] text-center' />
+                <FaLinkedinIn size={20} className='text-[#3661FC] text-center' />
+                <IoLogoYoutube size={20} className='text-[#3661FC] text-center' />
+                </Flex>
+               </div>
             </div>
         </Flex>
   </Container>
