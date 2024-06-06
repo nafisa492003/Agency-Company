@@ -25,9 +25,9 @@ const Nav_bar = () => {
     });
   }, []);
   return (
-    <section>
+    <section className="relative">
       <Container>
-        <nav className="w-full lg:w-[1660px] py-5 px-4 rounded-l-full absolute  lg:top-14  bg-white">
+        <nav className="absolute right-0 px-4 py-5 mx-auto bg-white rounded-l-full lg:top-14 w-full lg:w-[1660px]">
           <Flex className={`lg:gap-[130px] items-center justify-between relative`}>
             {/* nav logo */}
             <Link to="/">
