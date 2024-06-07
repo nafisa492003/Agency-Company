@@ -54,10 +54,10 @@ const FromPart = () => {
       </div>
       <div
         style={{ backgroundImage: `url(${from_bg})` }}
-        className="object-contain w-full px-3 lg:px-20 pb-20 bg-no-repeat pt-10 lg:pt-[186px] mt-20"
+        className="object-contain w-full px-3 lg:px-20 pb-[250px] bg-no-repeat pt-10 lg:pt-[186px] mt-20"
       >
         <div className="flex flex-col gap-3 lg:flex-row lg:gap-0">
-          <div className="w-full lg:w-1/2">
+          <div className="w-[200px] mx-auto lg:w-1/2">
             <img src={video} alt="" />
           </div>
           <div className="w-full lg:w-1/2">
@@ -89,8 +89,8 @@ const FromPart = () => {
                 className="w-full px-4 py-5 rounded-full font-dmSans font-normal text-[#9A9A9A] text-[14px] mt-5"
               />
               <textarea
-                placeholder="Business Topic"
-                className="w-full px-4 py-5 rounded-[40px] font-dmSans font-normal text-[#9A9A9A] text-[14px] mt-5 pb-[10px]"
+                placeholder="Your Message"
+                className="w-full px-4 pt-5 rounded-[40px] font-dmSans font-normal text-[#9A9A9A] text-[14px] mt-5 pb-[50px] lg:pb-[130px]"
               ></textarea>
               <button className="font-normal font-dmSans text-[14px] md:text-[18px] text-white px-6 py-2 md:px-[34px] md:py-3 rounded-[50px] bg-custom-gradient mt-6 md:mt-12 ml-3">
                 Send Message

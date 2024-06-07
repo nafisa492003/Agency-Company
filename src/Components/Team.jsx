@@ -25,66 +25,68 @@ const Team = () => {
         </div>
         {/* title part */}
         <Flex className={`items-center gap-6 lg:justify-between flex-col lg:flex-row`}>
-            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto'>
+            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto rounded-[40px] overflow-hidden'>
                 <img src={team_img} alt="" />
                 <div className='w-[150px] mx-auto mt-6'>
                     <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
                     <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
                 </div>
-               <div className='relative w-[330px] hidden group-hover:block duration-150'>
-               <Flex className={`items-center  py-5 bg-white px-5 mx-auto gap-10 absolute top-[-45px] left-[-18px] w-full`}>
-                <FaFacebook size={20} className='text-[#3661FC] text-center' />
-                <FaTwitter size={20} className='text-[#3661FC] text-center' />
-                <FaLinkedinIn size={20} className='text-[#3661FC] text-center' />
-                <IoLogoYoutube size={20} className='text-[#3661FC] text-center' />
+               <div className='relative hidden duration-150 group-hover:block'>
+               <Flex className={`items-center  py-5 bg-white px-[70px] mx-auto justify-between absolute top-[-45px] left-[-18px] w-full`}>
+                <FaFacebook  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <FaTwitter  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <FaLinkedinIn  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <IoLogoYoutube  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
                 </Flex>
                </div>
             </div>
-            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto'>
+            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto rounded-[40px] overflow-hidden'>
                 <img src={team_img} alt="" />
                 <div className='w-[150px] mx-auto mt-6'>
                     <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
                     <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
                 </div>
-               <div className='relative w-[330px] hidden group-hover:block duration-150'>
-               <Flex className={`items-center  py-5 bg-white px-5 mx-auto gap-10 absolute top-[-45px] left-[-18px] w-full`}>
-                <FaFacebook size={20} className='text-[#3661FC] text-center' />
-                <FaTwitter size={20} className='text-[#3661FC] text-center' />
-                <FaLinkedinIn size={20} className='text-[#3661FC] text-center' />
-                <IoLogoYoutube size={20} className='text-[#3661FC] text-center' />
+               <div className='relative hidden duration-150 group-hover:block'>
+               <Flex className={`items-center  py-5 bg-white px-[70px] mx-auto justify-between absolute top-[-45px] left-[-18px] w-full`}>
+                <FaFacebook  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <FaTwitter  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <FaLinkedinIn  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <IoLogoYoutube  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
                 </Flex>
                </div>
             </div>
-            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto'>
+            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto rounded-[40px] overflow-hidden'>
                 <img src={team_img} alt="" />
                 <div className='w-[150px] mx-auto mt-6'>
                     <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
                     <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
                 </div>
-               <div className='relative w-[330px] hidden group-hover:block duration-150'>
-               <Flex className={`items-center  py-5 bg-white px-5 mx-auto gap-10 absolute top-[-45px] left-[-18px] w-full`}>
-                <FaFacebook size={20} className='text-[#3661FC] text-center' />
-                <FaTwitter size={20} className='text-[#3661FC] text-center' />
-                <FaLinkedinIn size={20} className='text-[#3661FC] text-center' />
-                <IoLogoYoutube size={20} className='text-[#3661FC] text-center' />
+               <div className='relative hidden duration-150 group-hover:block'>
+               <Flex className={`items-center  py-5 bg-white px-[70px] mx-auto justify-between absolute top-[-45px] left-[-18px] w-full`}>
+                <FaFacebook  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <FaTwitter  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <FaLinkedinIn  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <IoLogoYoutube  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
                 </Flex>
                </div>
             </div>
-            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto'>
+            <div className='max-w-[340px] py-5 bg-white px-5 group mx-auto rounded-[40px] overflow-hidden'>
                 <img src={team_img} alt="" />
                 <div className='w-[150px] mx-auto mt-6'>
                     <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
                     <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
                 </div>
-               <div className='relative w-[330px] hidden group-hover:block duration-150'>
-               <Flex className={`items-center  py-5 bg-white px-5 mx-auto gap-10 absolute top-[-45px] left-[-18px] w-full`}>
-                <FaFacebook size={20} className='text-[#3661FC] text-center' />
-                <FaTwitter size={20} className='text-[#3661FC] text-center' />
-                <FaLinkedinIn size={20} className='text-[#3661FC] text-center' />
-                <IoLogoYoutube size={20} className='text-[#3661FC] text-center' />
+               <div className='relative hidden duration-150 group-hover:block'>
+               <Flex className={`items-center  py-5 bg-white px-[70px] mx-auto justify-between absolute top-[-45px] left-[-18px] w-full`}>
+                <FaFacebook  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <FaTwitter  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <FaLinkedinIn  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
+                <IoLogoYoutube  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
                 </Flex>
                </div>
             </div>
+          
+            
         </Flex>
   </Container>
     </section>

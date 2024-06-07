@@ -6,6 +6,7 @@ import Choosing from '../Components/Choosing'
 import Plan from '../Components/Plan'
 import FromPart from '../Components/FromPart'
 import Team from '../Components/Team'
+import Client from '../Components/Client'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
    <Plan/>
    <FromPart/>
    <Team/>
+   <Client/>
     </>
   )
 }
