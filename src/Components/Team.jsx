@@ -31,7 +31,7 @@ const Team = () => {
                     <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
                     <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
                 </div>
-               <div className='relative hidden duration-150 group-hover:block'>
+               <div className='relative hidden transition duration-150 group-hover:block'>
                <Flex className={`items-center  py-5 bg-white px-[70px] mx-auto justify-between absolute top-[-45px] left-[-18px] w-full`}>
                 <FaFacebook  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
                 <FaTwitter  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
@@ -46,7 +46,7 @@ const Team = () => {
                     <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
                     <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
                 </div>
-               <div className='relative hidden duration-150 group-hover:block'>
+               <div className='relative hidden transition duration-150 group-hover:block'>
                <Flex className={`items-center  py-5 bg-white px-[70px] mx-auto justify-between absolute top-[-45px] left-[-18px] w-full`}>
                 <FaFacebook  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
                 <FaTwitter  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
@@ -61,7 +61,7 @@ const Team = () => {
                     <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
                     <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
                 </div>
-               <div className='relative hidden duration-150 group-hover:block'>
+               <div className='relative hidden transition duration-150 group-hover:block'>
                <Flex className={`items-center  py-5 bg-white px-[70px] mx-auto justify-between absolute top-[-45px] left-[-18px] w-full`}>
                 <FaFacebook  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
                 <FaTwitter  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
@@ -76,7 +76,7 @@ const Team = () => {
                     <h2 className='font-medium font-dmSans text-[18px] text-center'>Robert Sions</h2>
                     <p className='font-dmSans font-normal text-[14px] text-center'>Business Consultant</p>
                 </div>
-               <div className='relative hidden duration-150 group-hover:block'>
+               <div className='relative hidden transition duration-150 group-hover:block'>
                <Flex className={`items-center  py-5 bg-white px-[70px] mx-auto justify-between absolute top-[-45px] left-[-18px] w-full`}>
                 <FaFacebook  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />
                 <FaTwitter  className='text-[#3661FC] text-center hover:text-[30px] text-[20px] duration-100 ease-in-out' />

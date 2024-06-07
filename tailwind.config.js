@@ -13,13 +13,26 @@ export default {
       fontFamily: {
         'dmSans': ['"DM Sans"', "sans-serif"],
       },
+      colors: {
+        customBlue: '#3661FC',
+      },
       backgroundImage: theme => ({
         'custom-gradient': 'linear-gradient(to right, #FE651B, #FFAA52)',
       }),
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    function ({ addUtilities }) {
+      addUtilities({
+        '.list-disc-custom': {
+          'list-style-type': 'disc',
+        },
+        '.list-disc-custom::marker': {
+          color: '#3661FC',
+        },
+      }, ['responsive', 'hover']);
+    },
 ]
 
 }
