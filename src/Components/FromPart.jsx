@@ -7,7 +7,7 @@ import video from "../assets/from_video.png";
 import { TbTargetArrow } from "react-icons/tb";
 const FromPart = () => {
   return (
-    <section className="my-[60px] lg:my-[120px] relative">
+    <section className="my-[60px] lg:my-[100px] relative">
     <Container>
       <div className="w-full lg:w-[1064px] py-[50px] px-[30px] lg:px-[60px] bg-custom-gradient rounded-full mx-auto hidden lg:block absolute top-[-71px] left-[450px]">
         <div className="flex items-center justify-between space-x-4 lg:space-x-0">
@@ -54,9 +54,9 @@ const FromPart = () => {
       </div>
       <div
         style={{ backgroundImage: `url(${from_bg})` }}
-        className="object-contain w-full px-3 lg:px-20 pb-[250px] bg-no-repeat pt-10 lg:pt-[186px] mt-20"
+        className="object-cover bg-no-repeat bg-cover bg-center w-full px-3 lg:px-20 pb-[150px]  pt-20 lg:pt-[186px] mt-20"
       >
-        <div className="flex flex-col gap-3 lg:flex-row lg:gap-0">
+        <div className="flex flex-col gap-3 lg:mt-[100px] lg:flex-row lg:gap-0">
           <div className="w-[200px] mx-auto lg:w-1/2">
             <img src={video} alt="" />
           </div>

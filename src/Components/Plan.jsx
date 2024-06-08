@@ -20,24 +20,31 @@ const Plan = () => {
         </div>
         {/* title part */}
         <Flex className={`flex-col gap-4 lg:flex-row lg:justify-between`}>
-          <div
-            style={{ backgroundImage: `url(${plan_img})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
-  className="object-contain py-10 px-10 sm:px-11 bg-no-repeat w-full h-full lg:w-[465px] lg:h-[606px]"
+        <div
+            style={{
+              backgroundImage: `url(${plan_img})`,
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="object-contain py-10 px-5 sm:px-11 bg-no-repeat w-full h-auto lg:w-[465px] lg:h-[606px]"
           >
-            <h4 className="font-semibold font-dmSans text-[20px] sm:text-[24px]">
-              Basic Plan
-            </h4>
-            <Flex className={`items-center gap-3 relative`}>
-              <span className="font-normal font-dmSans text-[20px] text-[#3661FC] absolute top-[1px] left-[-16px]">
-                $
-              </span>
-              <h1 className="font-bold font-dmSans text-[40px] sm:text-[60px] text-[#3661FC] ">
-                30
-              </h1>
-              <p className="font-normal font-dmSans text-[18px] text-[#6B6161] mt-4">
-                Per Month
-              </p>
-            </Flex>
+            <div className="pt-2 md:px-[150px] px-5 lg:px-4">
+              <h4 className="font-semibold font-dmSans text-[20px] sm:text-[24px]">
+                Basic Plan
+              </h4>
+              <Flex className="relative items-center gap-3 mt-2 lg:mt-0">
+                <span className="font-normal font-dmSans text-[20px] text-[#3661FC] absolute top-[1px] left-[-9px] lg:left-[-16px]">
+                  $
+                </span>
+                <h1 className="font-bold font-dmSans text-[40px] sm:text-[60px] text-[#3661FC] ">
+                  30
+                </h1>
+                <p className="font-normal font-dmSans text-[18px] text-[#6B6161] mt-4">
+                  Per Month
+                </p>
+              </Flex>
+            </div>
             <div className="w-full sm:w-[272px] mx-auto mt-8 sm:mt-14">
               {[
                 { label: "Free Consultations", checked: true },
@@ -53,13 +60,13 @@ const Plan = () => {
                     id={item.label}
                     checked={item.checked}
                     readOnly
-                    className={`w-5 h-5 text-orange-500 bg-gray-100 border-2 border-gray-300 focus:ring-orange-500 focus:ring-offset-0 focus:outline-none rounded-full ${
+                    className={`w-4 h-4 sm:w-5 sm:h-5 text-orange-500 bg-gray-100 border-2 border-gray-300 focus:ring-orange-500 focus:ring-offset-0 focus:outline-none rounded-full ${
                       !item.checked && "cursor-not-allowed"
                     }`}
                   />
                   <label
                     htmlFor={item.label}
-                    className={`ml-2 text-[14px] sm:text-[20px] font-medium font-dmSans ${
+                    className={`ml-2 text-[14px] sm:text-[16px] md:text-[20px] font-medium font-dmSans ${
                       item.checked ? "text-black" : "text-[#BCBCBC]"
                     }`}
                   >
@@ -68,28 +75,37 @@ const Plan = () => {
                 </div>
               ))}
             </div>
-            <button className="font-normal font-dmSans text-[14px] md:text-[18px] hover:text-white px-[66px] py-2 md:px-[134px] md:py-4 rounded-[50px] hover:bg-custom-gradient mt-3 border-[#3661FC] border hover:border-none duration-100">
-              Choose Plan
-            </button>
+            <div className="text-center lg:text-left">
+              <button className="font-normal font-dmSans text-[14px] sm:text-[16px] md:text-[18px] hover:text-white px-[40px] sm:px-[66px] py-2 md:px-[134px] md:py-4 rounded-[50px] hover:bg-custom-gradient mt-3 border-[#3661FC] border hover:border-none duration-100">
+                Choose Plan
+              </button>
+            </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${plan_img})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
-  className="object-contain py-10 px-10 sm:px-11 bg-no-repeat w-full h-full lg:w-[465px] lg:h-[606px]"
+            style={{
+              backgroundImage: `url(${plan_img})`,
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="object-contain py-10 px-5 sm:px-11 bg-no-repeat w-full h-auto lg:w-[465px] lg:h-[606px]"
           >
-            <h4 className="font-semibold font-dmSans text-[20px] sm:text-[24px]">
-              Basic Plan
-            </h4>
-            <Flex className={`items-center gap-3 relative`}>
-              <span className="font-normal font-dmSans text-[20px] text-[#3661FC] absolute top-[1px] left-[-16px]">
-                $
-              </span>
-              <h1 className="font-bold font-dmSans text-[40px] sm:text-[60px] text-[#3661FC] ">
-                30
-              </h1>
-              <p className="font-normal font-dmSans text-[18px] text-[#6B6161] mt-4">
-                Per Month
-              </p>
-            </Flex>
+            <div className="pt-2 md:px-[150px] px-5 lg:px-4">
+              <h4 className="font-semibold font-dmSans text-[20px] sm:text-[24px]">
+                Basic Plan
+              </h4>
+              <Flex className="relative items-center gap-3 mt-2 lg:mt-0">
+                <span className="font-normal font-dmSans text-[20px] text-[#3661FC] absolute top-[1px] left-[-9px] lg:left-[-16px]">
+                  $
+                </span>
+                <h1 className="font-bold font-dmSans text-[40px] sm:text-[60px] text-[#3661FC] ">
+                  30
+                </h1>
+                <p className="font-normal font-dmSans text-[18px] text-[#6B6161] mt-4">
+                  Per Month
+                </p>
+              </Flex>
+            </div>
             <div className="w-full sm:w-[272px] mx-auto mt-8 sm:mt-14">
               {[
                 { label: "Free Consultations", checked: true },
@@ -105,13 +121,13 @@ const Plan = () => {
                     id={item.label}
                     checked={item.checked}
                     readOnly
-                    className={`w-5 h-5 text-orange-500 bg-gray-100 border-2 border-gray-300 focus:ring-orange-500 focus:ring-offset-0 focus:outline-none rounded-full ${
+                    className={`w-4 h-4 sm:w-5 sm:h-5 text-orange-500 bg-gray-100 border-2 border-gray-300 focus:ring-orange-500 focus:ring-offset-0 focus:outline-none rounded-full ${
                       !item.checked && "cursor-not-allowed"
                     }`}
                   />
                   <label
                     htmlFor={item.label}
-                    className={`ml-2 text-[14px] sm:text-[20px] font-medium font-dmSans ${
+                    className={`ml-2 text-[14px] sm:text-[16px] md:text-[20px] font-medium font-dmSans ${
                       item.checked ? "text-black" : "text-[#BCBCBC]"
                     }`}
                   >
@@ -120,28 +136,37 @@ const Plan = () => {
                 </div>
               ))}
             </div>
-            <button className="font-normal font-dmSans text-[14px] md:text-[18px] hover:text-white px-[66px] py-2 md:px-[134px] md:py-4 rounded-[50px] hover:bg-custom-gradient mt-3 border-[#3661FC] border hover:border-none duration-100">
-              Choose Plan
-            </button>
+            <div className="text-center lg:text-left">
+              <button className="font-normal font-dmSans text-[14px] sm:text-[16px] md:text-[18px] hover:text-white px-[40px] sm:px-[66px] py-2 md:px-[134px] md:py-4 rounded-[50px] hover:bg-custom-gradient mt-3 border-[#3661FC] border hover:border-none duration-100">
+                Choose Plan
+              </button>
+            </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${plan_img})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
-  className="object-contain py-10 px-10 sm:px-11 bg-no-repeat w-full h-full lg:w-[465px] lg:h-[606px]"
+            style={{
+              backgroundImage: `url(${plan_img})`,
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="object-contain py-10 px-5 sm:px-11 bg-no-repeat w-full h-auto lg:w-[465px] lg:h-[606px]"
           >
-            <h4 className="font-semibold font-dmSans text-[20px] sm:text-[24px]">
-              Basic Plan
-            </h4>
-            <Flex className={`items-center gap-3 relative`}>
-              <span className="font-normal font-dmSans text-[20px] text-[#3661FC] absolute top-[1px] left-[-16px]">
-                $
-              </span>
-              <h1 className="font-bold font-dmSans text-[40px] sm:text-[60px] text-[#3661FC] ">
-                30
-              </h1>
-              <p className="font-normal font-dmSans text-[18px] text-[#6B6161] mt-4">
-                Per Month
-              </p>
-            </Flex>
+            <div className="pt-2 md:px-[150px] px-5 lg:px-4">
+              <h4 className="font-semibold font-dmSans text-[20px] sm:text-[24px]">
+                Basic Plan
+              </h4>
+              <Flex className="relative items-center gap-3 mt-2 lg:mt-0">
+                <span className="font-normal font-dmSans text-[20px] text-[#3661FC] absolute top-[1px] left-[-9px] lg:left-[-16px]">
+                  $
+                </span>
+                <h1 className="font-bold font-dmSans text-[40px] sm:text-[60px] text-[#3661FC] ">
+                  30
+                </h1>
+                <p className="font-normal font-dmSans text-[18px] text-[#6B6161] mt-4">
+                  Per Month
+                </p>
+              </Flex>
+            </div>
             <div className="w-full sm:w-[272px] mx-auto mt-8 sm:mt-14">
               {[
                 { label: "Free Consultations", checked: true },
@@ -157,13 +182,13 @@ const Plan = () => {
                     id={item.label}
                     checked={item.checked}
                     readOnly
-                    className={`w-5 h-5 text-orange-500 bg-gray-100 border-2 border-gray-300 focus:ring-orange-500 focus:ring-offset-0 focus:outline-none rounded-full ${
+                    className={`w-4 h-4 sm:w-5 sm:h-5 text-orange-500 bg-gray-100 border-2 border-gray-300 focus:ring-orange-500 focus:ring-offset-0 focus:outline-none rounded-full ${
                       !item.checked && "cursor-not-allowed"
                     }`}
                   />
                   <label
                     htmlFor={item.label}
-                    className={`ml-2 text-[14px] sm:text-[20px] font-medium font-dmSans ${
+                    className={`ml-2 text-[14px] sm:text-[16px] md:text-[20px] font-medium font-dmSans ${
                       item.checked ? "text-black" : "text-[#BCBCBC]"
                     }`}
                   >
@@ -172,11 +197,14 @@ const Plan = () => {
                 </div>
               ))}
             </div>
-            <button className="font-normal font-dmSans text-[14px] md:text-[18px] hover:text-white px-[66px] py-2 md:px-[134px] md:py-4 rounded-[50px] hover:bg-custom-gradient mt-3 border-[#3661FC] border hover:border-none duration-100">
-              Choose Plan
-            </button>
+            <div className="text-center lg:text-left">
+              <button className="font-normal font-dmSans text-[14px] sm:text-[16px] md:text-[18px] hover:text-white px-[40px] sm:px-[66px] py-2 md:px-[134px] md:py-4 rounded-[50px] hover:bg-custom-gradient mt-3 border-[#3661FC] border hover:border-none duration-100">
+                Choose Plan
+              </button>
+            </div>
           </div>
-          
+
+         
         </Flex>
       </Container>
     </section>

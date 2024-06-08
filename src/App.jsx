@@ -7,11 +7,21 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import RootLayout from "./Components/RootLayout";
+import About_part from "./pages/About_part";
+import Service from "./pages/Service";
+import Team_page from "./pages/Team_page";
+import Questain from "./pages/Questain";
+import Contact_part from "./pages/Contact_part";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route>
         <Route index element={<Home />} />
+        <Route path='/about' element={<About_part />} />
+        <Route path='/service' element={<Service />} />
+        <Route path='/team' element={<Team_page />} />
+        <Route path='/question' element={<Questain />} />
+        <Route path='/contact' element={<Contact_part />} />
       </Route>
     </Route>
   )

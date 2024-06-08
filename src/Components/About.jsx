@@ -46,11 +46,11 @@ const About = () => {
             <div class="flex items-center w-1/2">
               <input
                 type="checkbox"
-                id="custom-checkbox"
+                id="  SEO Optimization"
                 class="w-5 h-5 text-orange-500 bg-gray-100 border-2 border-gray-300  focus:ring-orange-500 focus:ring-offset-0 focus:outline-none rounded-full"
               />
               <label
-                for="custom-checkbox"
+                for="  SEO Optimization"
                 class="ml-2 text-[14px] md:text-[20px] font-medium font-dmSans text-black"
               >
               SEO Optimization
@@ -61,11 +61,11 @@ const About = () => {
             <div class="flex items-center w-1/2">
               <input
                 type="checkbox"
-                id="custom-checkbox"
+                id="Marketing"
                 class="w-5 h-5 text-orange-500 bg-gray-100 border-2 border-gray-300  focus:ring-orange-500 focus:ring-offset-0 focus:outline-none rounded-full"
               />
               <label
-                for="custom-checkbox"
+                for="Marketing"
                 class="ml-2 text-[14px] md:text-[20px] font-medium font-dmSans text-black"
               >
                Marketing
@@ -74,11 +74,11 @@ const About = () => {
             <div class="flex items-center w-1/2">
               <input
                 type="checkbox"
-                id="custom-checkbox"
+                id="First Working Process"
                 class="w-5 h-5 text-orange-500 bg-gray-100 border-2 border-gray-300  focus:ring-orange-500 focus:ring-offset-0 focus:outline-none rounded-full"
               />
               <label
-                for="custom-checkbox"
+                for="First Working Process"
                 class="ml-2 text-[14px] md:text-[20px] font-medium font-dmSans text-black"
               >
                First Working Process

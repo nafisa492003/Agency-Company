@@ -4,7 +4,7 @@ import image from "../assets/image.png";
 import Flex from "./Flex";
 const Image = () => {
   return (
-    <section className="mb-20 lg:mb-[120px]">
+    <section className="mb-20 lg:mb-[120px] mt-10">
       <Container>
         <Flex className={`items-center gap-4 justify-between flex-wrap lg:flex-row`}>
         <div className="max-w-[342px] mx-auto md:mx-0 ">

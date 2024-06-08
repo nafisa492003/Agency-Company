@@ -42,13 +42,13 @@ const Nav_bar = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="font-normal font-dmSans text-[16px] hover:text-orange-500">
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li className="font-normal font-dmSans text-[16px] hover:text-orange-500">
-            <Link to="/">Services</Link>
+            <Link to="/service">Services</Link>
           </li>
           <li className="font-normal font-dmSans text-[16px] hover:text-orange-500">
-            <Link to="/">Team</Link>
+            <Link to="/team">Team</Link>
           </li>
           <li className="font-normal font-dmSans text-[16px] hover:text-orange-500">
             <Link to="/">Pages</Link>
@@ -57,7 +57,7 @@ const Nav_bar = () => {
             <Link to="/">News</Link>
           </li>
           <li className="font-normal font-dmSans text-[16px] hover:text-orange-500">
-            <Link to="/">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
          <Flex className={`gap-4 items-center mt-3`}>
@@ -67,8 +67,12 @@ const Nav_bar = () => {
               <div className="border-[#3661FC] border w-[40px] h-[40px] rounded-full flex items-center justify-center bg-[#F4F4FF]">
                 <GiShoppingBag size={20} className="text-[#3661FC] " />
               </div>
-              <button className="font-normal font-dmSans text-[18px] flex items-center gap-[5px] py-[15px] px-[20px] bg-[#3661FC] rounded-[50px] text-white ">
-              Free Quote <FaArrowRight />
+              <button  className="font-normal font-dmSans text-[18px] flex items-center gap-[5px] py-[15px] px-[20px] bg-[#3661FC] rounded-[50px] text-white ">
+                <Link to='/question'>
+              Free Quote
+                
+                </Link>
+                <FaArrowRight />
               </button>
             </Flex>
               </div>
@@ -104,7 +108,7 @@ const Nav_bar = () => {
               </li>
               <li className="relative group">
                 <div className="font-normal font-dmSans text-16 hover:text-orange-500">
-                  <Link to="/">About</Link>
+                  <Link to='/about'>About</Link>
                 </div>
                 <span className="absolute w-14 h-0.5 bg-transparent  group-hover:bg-orange-500 transition duration-150 ease-linear top-[62px]"></span>
               </li>
@@ -113,7 +117,7 @@ const Nav_bar = () => {
                 className="font-normal font-dmSans text-[16px] relative group hover:text-orange-500"
               >
                 <Flex className={`items-center gap-0   `}>
-                  <Link to="/">Services</Link>
+                  <Link to="/service">Services</Link>
                   <FaAngleDown />
                 </Flex>
                 <span className="w-[56px] h-[2px] group-hover:bg-orange-500 absolute duration-150 ease-linear top-[62px]"></span>
@@ -138,7 +142,7 @@ const Nav_bar = () => {
                 className="font-normal font-dmSans text-[16px] relative group hover:text-orange-500"
               >
                 <Flex className={`items-center gap-0   `}>
-                  <Link to="/">Team</Link>
+                  <Link to="/team">Team</Link>
                   <FaAngleDown />
                 </Flex>
                 <span className="w-[56px] h-[2px] group-hover:bg-orange-500 absolute duration-150 ease-linear top-[62px]"></span>
@@ -174,7 +178,7 @@ const Nav_bar = () => {
               </li>
               <li className="relative group">
                 <div className="font-normal font-dmSans text-16 hover:text-orange-500">
-                  <Link to="/">Contact</Link>
+                  <Link to="/contact">Contact</Link>
                 </div>
                 <span className="absolute w-14 h-0.5 bg-transparent  group-hover:bg-orange-500 transition duration-150 ease-linear top-[62px]"></span>
               </li>
@@ -187,9 +191,13 @@ const Nav_bar = () => {
               <div className="border-[#3661FC] border w-[56px] h-[56px] rounded-full flex items-center justify-center bg-[#F4F4FF]">
                 <GiShoppingBag size={24} className="text-[#3661FC] " />
               </div>
-              <button className="font-normal font-dmSans text-[18px] flex items-center gap-[10px] py-[15px] px-[30px] bg-[#3661FC] rounded-[50px] text-white ">
-              Free Quote <FaArrowRight />
-              </button>
+              <div className="font-normal font-dmSans text-[18px] flex items-center gap-[10px] py-[15px] px-[30px] bg-[#3661FC] rounded-[50px] text-white">
+              <Link to='/question'>
+              Free Quote 
+                
+                </Link>
+                <FaArrowRight />
+              </div>
             </Flex>
 
             {/* icon part */}
