@@ -70,7 +70,7 @@ const ContactPart_Form = () => {
             <p className="font-dmSans font-normal text-[18px] w-full mb-6 text-white">
             Send us a message and we' ll respond as soon as possible
             </p> 
-         <Flex className={` justify-between flex-col lg:flex-row`}>
+         <Flex className={`justify-between flex-col lg:flex-row`}>
          <Flex className="items-center gap-5 mb-3 ">
             <FaPhoneAlt className="text-[25px] text-white" />
             <div>
