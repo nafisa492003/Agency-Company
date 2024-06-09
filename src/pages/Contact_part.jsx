@@ -15,8 +15,8 @@ const Contact_part = () => {
         </div>
        </Flex>
       </div>
-      <ContactPart_Form/>
        {/* banner */}
+      <ContactPart_Form/>
   </section>
   )
 }

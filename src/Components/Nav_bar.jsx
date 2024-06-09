@@ -65,8 +65,12 @@ const Nav_bar = () => {
                 <IoSearchSharp size={20} className="text-[#3661FC]" />
               </div>
               <div className="border-[#3661FC] border w-[40px] h-[40px] rounded-full flex items-center justify-center bg-[#F4F4FF]">
+              <Link to='/cart'>
+                
                 <GiShoppingBag size={20} className="text-[#3661FC] " />
+              </Link>
               </div>
+             
               <button  className="font-normal font-dmSans text-[18px] flex items-center gap-[5px] py-[15px] px-[20px] bg-[#3661FC] rounded-[50px] text-white ">
                 <Link to='/question'>
               Free Quote
@@ -188,9 +192,13 @@ const Nav_bar = () => {
               <div className="border-[#3661FC] border w-[56px] h-[56px] rounded-full bg-[#F4F4FF] flex items-center justify-center">
                 <IoSearchSharp size={24} className="text-[#3661FC]" />
               </div>
+              <Link to='/cart'>
               <div className="border-[#3661FC] border w-[56px] h-[56px] rounded-full flex items-center justify-center bg-[#F4F4FF]">
+                
                 <GiShoppingBag size={24} className="text-[#3661FC] " />
               </div>
+              </Link>
+             
               <div className="font-normal font-dmSans text-[18px] flex items-center gap-[10px] py-[15px] px-[30px] bg-[#3661FC] rounded-[50px] text-white">
               <Link to='/question'>
               Free Quote 

@@ -12,6 +12,7 @@ import Service from "./pages/Service";
 import Team_page from "./pages/Team_page";
 import Questain from "./pages/Questain";
 import Contact_part from "./pages/Contact_part";
+import Cart from "./pages/Cart";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
         <Route path='/team' element={<Team_page />} />
         <Route path='/question' element={<Questain />} />
         <Route path='/contact' element={<Contact_part />} />
+        <Route path='/cart' element={<Cart />} />
       </Route>
     </Route>
   )
