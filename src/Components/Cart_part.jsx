@@ -5,6 +5,7 @@ import cart_img from "../assets/cart_img.png";
 import { FaPlus } from "react-icons/fa6";
 import { FiMinus } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 const Cart_part = () => {
   return (
     <section className="my-[120px]">
@@ -274,7 +275,12 @@ const Cart_part = () => {
                 $700.00
                 </h2>
               </Flex>
-              <button className="py-4 px-[33px] bg-custom-gradient font-dmSans font-normal text-[18px] text-white w-full mx-auto rounded-full">Proceed to Checkout</button>
+              <button className="py-4 px-[33px] bg-custom-gradient font-dmSans font-normal text-[18px] text-white w-full mx-auto rounded-full">
+                <Link to="/checkout">
+                
+                Proceed to Checkout
+                </Link>
+                </button>
             </div>
           </div>
         </Flex>

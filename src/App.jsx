@@ -13,6 +13,7 @@ import Team_page from "./pages/Team_page";
 import Questain from "./pages/Questain";
 import Contact_part from "./pages/Contact_part";
 import Cart from "./pages/Cart";
+import Check_out from "./pages/Check_out";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
         <Route path='/question' element={<Questain />} />
         <Route path='/contact' element={<Contact_part />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/checkout' element={<Check_out />} />
       </Route>
     </Route>
   )
