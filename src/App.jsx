@@ -14,6 +14,7 @@ import Questain from "./pages/Questain";
 import Contact_part from "./pages/Contact_part";
 import Cart from "./pages/Cart";
 import Check_out from "./pages/Check_out";
+import Shop from "./pages/Shop";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
         <Route path='/contact' element={<Contact_part />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/checkout' element={<Check_out />} />
+        <Route path='/shop' element={<Shop />} />
       </Route>
     </Route>
   )

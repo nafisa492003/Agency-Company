@@ -54,7 +54,7 @@ const Nav_bar = () => {
             <Link to="/">Pages</Link>
           </li>
           <li className="font-normal font-dmSans text-[16px] hover:text-orange-500">
-            <Link to="/">News</Link>
+            <Link to="/shop">Shop</Link>
           </li>
           <li className="font-normal font-dmSans text-[16px] hover:text-orange-500">
             <Link to="/contact">Contact</Link>
@@ -175,7 +175,7 @@ const Nav_bar = () => {
               </li>
               <li className="relative group">
                 <div className="flex items-center gap-1 font-normal f font-dmSans text-16 hover:text-orange-500">
-                  <Link to="/"> News</Link>
+                  <Link to="/shop"> Shop</Link>
                   <FaAngleDown />
                 </div>
                 <span className="absolute w-14 h-0.5 bg-transparent  group-hover:bg-orange-500 transition duration-150 ease-linear top-[62px]"></span>
